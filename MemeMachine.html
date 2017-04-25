@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/png" href="https://lh3.googleusercontent.com/ICqfwusOjfw2wPAusH5PR8O_3DcmVUMBaOnxjg0JdPmKO5rFX0y5gWk7qwvOQwozcyI=w170"/>
+  <title>Meme Machine</title>
+    <style type="text/css">
+    	body {
+    		background: blue;
+    		font-family: Impact;
+    		text-transform: uppercase;
+    	} 
+    	.meme {
+    		height: 400px;
+    		width: 400px;
+    		margin: 10px auto;
+    		background-size: contain;
+    		background-repeat: no-repeat;
+    		background-position: center;
+    		background-color: LightGray;
+   			position: relative;
+    	}
+    	.topMemeText{
+		    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    		text-align: center;
+    		color: white;
+    	}
+    	.bottomMemeText{
+		    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+    		text-align: center;
+    		color: white;
+		    position: absolute;
+			margin-left: auto;
+			margin-right: auto;
+		    bottom: 0;
+		    left: 0;
+			right: 0;
+		}
+    	#meme1 {
+    		background-image: url("http://vignette4.wikia.nocookie.net/cartoons/images/4/47/Spongebob.png/revision/latest?cb=20150913114858");
+    	}
+      	#meme2 {
+    		background-image: url("http://sciencefiction.com/wp-content/uploads/2011/10/Samuel-Jackson-300x205.png");
+    		/*Add dimensions of picture when it doesn't look like a square and has a background*/
+    		height: 400px;
+    		width: 586px;
+    	}
+    </style>
+</head>
+<body>
+  <h1 align="center" style="font-size:300%;"><u>Meme Machine</u></h1>
+  <div class="meme" id="meme1">
+  	<h1 class="topMemeText">Top Meme Text Goes Goes In This Type of Header</h1>
+  	<h1 class="bottomMemeText">Bottom Meme Text Here</h1>
+  </div>
+  <div class="meme" id="meme2">
+  	<h1 class="topMemeText">Alexa</h1>
+  	<h1 class="bottomMemeText">Assemble the Avengers</h1>
+  </div>
+</body>
+</html>
