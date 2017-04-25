@@ -38,3 +38,9 @@ body {
   height: 400px;
   width: 586px;
 }
+#meme3 {
+  background-image: url("https://i.ytimg.com/vi/lPu2a8fyuZg/maxresdefault.jpg");
+  /*Add dimensions of picture when it doesn't look like a square and has a background*/
+  height: 360px;
+  width: 640px;
+}
