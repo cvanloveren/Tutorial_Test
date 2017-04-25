@@ -23,16 +23,16 @@ body {
   text-align: center;
   color: white;
   position: absolute;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   bottom: 0;
   left: 0;
-right: 0;
+  right: 0;
 }
 #meme1 {
   background-image: url("http://vignette4.wikia.nocookie.net/cartoons/images/4/47/Spongebob.png/revision/latest?cb=20150913114858");
 }
-  #meme2 {
+#meme2 {
   background-image: url("http://sciencefiction.com/wp-content/uploads/2011/10/Samuel-Jackson-300x205.png");
   /*Add dimensions of picture when it doesn't look like a square and has a background*/
   height: 400px;
